@@ -1,0 +1,212 @@
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+    <link rel="stylesheet" href="css/resume.css">
+  </head>
+  <body class="c7 doc-content">
+    <p class="c5"><span class="c1">Good Points in Your Resume</span></p>
+
+    <label class="c13" for="pos-clear">
+        <input type="checkbox" class="pos-checkbox" id="pos-clear" checked>
+        Your resume is clear and neatly organized.
+    </label> <br>
+    <label class="c13" for="pos-straightforward">
+        <input type="checkbox" class="pos-checkbox" id="pos-straightforward" checked>
+        It&#39;s written in straightforward language without errors.
+    </label> <br>
+    <label class="c13" for="pos-LinkedIn">
+        <input type="checkbox" class="pos-checkbox" id="pos-LinkedIn" checked>
+        It&#39;s great that you&#39;ve included links to LinkedIn and other professional profiles.
+    </label> <br>
+    <label class="c13" for="pos-GitHub">
+        <input type="checkbox" class="pos-checkbox" id="pos-GitHub">
+        You&#39;ve showcased your coding abilities by adding a link to your GitHub or other coding repositories.
+    </label> <br>
+    <label class="c13" for="pos-objective">
+        <input type="checkbox" class="pos-checkbox" id="pos-objective">
+        Your objective is concise and straight to the point.
+    </label> <br>
+    <label class="c13" for="pos-education">
+        <input type="checkbox" class="pos-checkbox" id="pos-education" checked>
+        You have a well defined education section.
+    </label> <br>
+    <label class="c13" for="pos-coursework">
+        <input type="checkbox" class="pos-checkbox" id="pos-coursework">
+        It&#39;s commendable that you&#39;ve listed relevant Computer Science coursework.
+    </label> <br>
+    <label class="c13" for="pos-programming">
+        <input type="checkbox" class="pos-checkbox" id="pos-programming" checked>
+        You&#39;ve effectively showcased proficiency in various programming languages, frameworks, and tools.
+    </label> <br>
+    <label class="c13" for="pos-projects">
+        <input type="checkbox" class="pos-checkbox" id="pos-projects">
+        It&#39;s great to see that you&#39;ve listed pertinent projects with comprehensive details.
+    </label> <br>
+    <label class="c13" for="pos-internships">
+        <input type="checkbox" class="pos-checkbox" id="pos-internships">
+        You&#39;ve highlighted important internships or industrial experiences in your resume.
+    </label> <br>
+    <label class="c13" for="pos-certifications">
+        <input type="checkbox" class="pos-checkbox" id="pos-certifications">
+        You&#39;ve detailed the workshops and certifications you&#39;ve acquired.
+    </label> <br>
+    <label class="c13" for="pos-extracurricular">
+        <input type="checkbox" class="pos-checkbox" id="pos-extracurricular" checked>
+        It&#39;s great to see you&#39;ve detailed your extracurricular activities and achievements.
+    </label>
+
+    <br>
+    <input type="button" class="done" value="Done" onclick="posDone();">
+
+
+    <ul id="pos-list" class="c9 lst-kix_list_1-0 start">
+    </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr style="page-break-before: always; display: none" />
+    <p class="c2"><span class="c1 c10"></span></p>
+    <p class="c2"><span class="c10 c1"></span></p>
+    <p class="c5"><span class="c1">Points to improve in your Resume</span></p>
+
+
+    <label class="c6" for="neg-alignment">
+        <input type="checkbox" class="neg-checkbox" id="neg-alignment">
+        Please adjust the alignment in certain areas to enhance the overall appearance. Also, consider optimizing the space more effectively.
+    </label> <br>
+
+    <label class="c6" for="neg-PDF">
+        <input type="checkbox" class="neg-checkbox" id="neg-PDF">
+        Ensure your resume is saved as a PDF.
+    </label> <br>
+
+    <label class="c6" for="neg-alignment">
+        <input type="checkbox" class="neg-checkbox" id="neg-alignment">
+        Fix the alignment of a few sections to make the resume look neat.
+    </label> <br>
+
+    <label class="c6" for="neg-selectable">
+        <input type="checkbox" class="neg-checkbox" id="neg-selectable">
+        Text in your resume should be easily selectable and searchable.
+    </label> <br>
+
+    <label class="c6" for="neg-grammatical">
+        <input type="checkbox" class="neg-checkbox" id="neg-grammatical">
+        There are some grammatical errors in your resume. Consider using an online tool, such as Grammarly, to rectify them.
+    </label> <br>
+
+    <label class="c6" for="neg-clickable">
+        <input type="checkbox" class="neg-checkbox" id="neg-clickable">
+        Ensure that all the links in your resume are active and clickable.
+    </label> <br>
+
+    <label class="c6" for="neg-formal">
+        <input type="checkbox" class="neg-checkbox" id="neg-formal">
+        Consider using a more formal photo for a polished look.
+    </label> <br>
+
+    <label class="c6" for="neg-LinkedIn">
+        <input type="checkbox" class="neg-checkbox" id="neg-LinkedIn">
+        Adding a link to your LinkedIn profile allows you to share more details without worrying about space constraints.
+    </label> <br>
+
+    <label class="c6" for="neg-GitHub">
+        <input type="checkbox" class="neg-checkbox" id="neg-GitHub" checked>
+        To further demonstrate your coding expertise, include links to your GitHub or other coding repositories.
+    </label> <br>
+
+    <label class="c6" for="neg-objective">
+        <input type="checkbox" class="neg-checkbox" id="neg-objective" checked>
+        Your career objective seems lengthy and not original. Aim for a simpler, genuine statement.
+    </label> <br>
+
+    <label class="c6" for="neg-duration">
+        <input type="checkbox" class="neg-checkbox" id="neg-duration">
+        Ensure your education section lists the years attended and the duration for each program or course.
+    </label> <br>
+
+    <label class="c6" for="neg-chronological">
+        <input type="checkbox" class="neg-checkbox" id="neg-chronological">
+        Arrange your resume in reverse chronological order, beginning with your most recent experiences, and spotlighting your latest and most pertinent achievements.
+    </label> <br>
+
+    <label class="c6" for="neg-percentages">
+        <input type="checkbox" class="neg-checkbox" id="neg-percentages">
+        Add percentages or grades to each education that you have done.
+    </label> <br>
+
+    <label class="c6" for="neg-qualifications">
+        <input type="checkbox" class="neg-checkbox" id="neg-qualifications">
+        Please add your 10+2 qualifications also in the education section.
+    </label> <br>
+
+    <label class="c6" for="neg-courses">
+        <input type="checkbox" class="neg-checkbox" id="neg-courses" checked>
+        Emphasize on the courses focused on software development, data structures, algorithms, and related subjects.
+    </label> <br>
+
+    <label class="c6" for="neg-programming">
+        <input type="checkbox" class="neg-checkbox" id="neg-programming">
+        Be sure to specify the exact programming languages, frameworks, and tools you&#39;re adept at using.
+    </label> <br>
+
+    <label class="c6" for="neg-project">
+        <input type="checkbox" class="neg-checkbox" id="neg-project" checked>
+        For each project, ensure you specify the duration, your specific role, and provide a link to the open-source code when applicable.
+    </label> <br>
+
+    <label class="c6" for="neg-internships">
+        <input type="checkbox" class="neg-checkbox" id="neg-internships" checked>
+        Make sure to list any pertinent internships or industrial experiences, emphasizing your specific roles and contributions.
+    </label> <br>
+
+    <label class="c6" for="neg-hackathons">
+        <input type="checkbox" class="neg-checkbox" id="neg-hackathons" checked>
+        Don&#39;t forget to include any participation in hackathons, as they showcase your innovative skills and team collaboration.
+    </label> <br>
+
+    <label class="c6" for="neg-certifications">
+        <input type="checkbox" class="neg-checkbox" id="neg-certifications">
+        Consider listing any additional workshops you&#39;ve attended or certifications you&#39;ve achieved to further enhance your qualifications.
+    </label> <br>
+
+    <label class="c6" for="neg-examples">
+        <input type="checkbox" class="neg-checkbox" id="neg-examples">
+        If you&#39;re adding a strengths section, provide examples where you&#39;ve demonstrated those particular strengths for better context.
+    </label> <br>
+
+    <label class="c6" for="neg-extracurricular">
+        <input type="checkbox" class="neg-checkbox" id="neg-extracurricular" checked>
+        Emphasize significant accomplishments within your extracurricular activities that enhance your profile.
+    </label> <br>
+
+    <label class="c6" for="neg-leadership">
+        <input type="checkbox" class="neg-checkbox" id="neg-leadership" checked>
+        Highlight any leadership roles you&#39;ve held in student or community organizations to underscore your leadership capabilities.
+    </label> <br>
+
+    <label class="c6" for="neg-soft">
+        <input type="checkbox" class="neg-checkbox" id="neg-soft" >
+        Consider introducing a section dedicated to emphasizing relevant soft skills, such as communication or critical thinking, to further round out your profile.
+    </label> <br>
+
+    <input type="button" class="done" value="Done" onclick="negDone();">
+
+    <ul id="neg-list" class="c9 lst-kix_t2bwjy7jyg4b-0 start">
+    </ul>
+
+    <p class="c2 c11"><span class="c6"></span></p>
+    <p class="c2"><span class="c8"></span></p>
+    <script src="js/resume.js" ></script>
+  </body>
+</html>
