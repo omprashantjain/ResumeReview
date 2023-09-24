@@ -5,7 +5,7 @@ function posDone() {
     for(var i=0; i < elements.length; i++) {
         if (elements[i].checked) {
             posList.innerHTML = posList.innerHTML 
-            + `<li class="c0 li-bullet-0"><span class="c3">${elements[i].parentElement.innerText}</span></li>`;
+            + `<li class="c0 li-bullet-0"><span class="c3">${elements[i].parentElement.innerText.trim()}</span></li>`;
         }
     }
 }
@@ -17,7 +17,7 @@ function negDone() {
     for(var i=0; i < elements.length; i++) {
         if (elements[i].checked) {
             negList.innerHTML = negList.innerHTML 
-            + `<li class="c0 li-bullet-0"><span class="c6">${elements[i].parentElement.innerText}</span></li>`;
+            + `<li class="c0 li-bullet-0"><span class="c6">${elements[i].parentElement.innerText.trim()}</span></li>`;
         }
     }
 }
