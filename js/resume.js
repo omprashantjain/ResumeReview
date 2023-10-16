@@ -21,3 +21,32 @@ function negDone() {
         }
     }
 }
+
+function copyToClipboard(element, buttonId) {
+    const doc = document;
+    const text = doc.getElementById( element );
+    let range;
+    let selection;
+
+    if( doc.body.createTextRange ) {
+
+        range = doc.body.createTextRange();
+        range.moveToElement( text );
+        range.select();
+
+    } else if ( window.getSelection ) {
+
+        selection = window.getSelection();
+
+        range = doc.createRange();
+        range.selectNodeContents( text );
+
+        selection.removeAllRanges();
+        selection.addRange( range );
+
+    }
+
+    document.execCommand( 'copy' );
+    window.getSelection().removeAllRanges();
+    document.getElementById( buttonId ).textContent = 'Copied to clipboard!';
+}

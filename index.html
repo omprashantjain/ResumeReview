@@ -56,22 +56,13 @@
     </label>
 
     <br>
-    <input type="button" class="done" value="Done" onclick="posDone();">
+    <input type="button" class="done" value="Preview" onclick="posDone();">
 
 
     <ul id="pos-list" class="c9 lst-kix_list_1-0 start">
+        <li class="c0 li-bullet-0"><span class="c6">Preview will appear here</span></li>
     </ul>
-
-
-
-
-
-
-
-
-
-
-
+    <button id='pos-copy-button' class="copy" onclick="copyToClipboard('pos-list', 'pos-copy-button')">Copy to Clipboard</button>
 
 
     <hr style="page-break-before: always; display: none" />
@@ -90,8 +81,8 @@
         Ensure your resume is saved as a PDF.
     </label> <br>
 
-    <label class="c6" for="neg-alignment">
-        <input type="checkbox" class="neg-checkbox" id="neg-alignment">
+    <label class="c6" for="neg-alignment-sections">
+        <input type="checkbox" class="neg-checkbox" id="neg-alignment-sections">
         Fix the alignment of a few sections to make the resume look neat.
     </label> <br>
 
@@ -200,10 +191,13 @@
         Consider introducing a section dedicated to emphasizing relevant soft skills, such as communication or critical thinking, to further round out your profile.
     </label> <br>
 
-    <input type="button" class="done" value="Done" onclick="negDone();">
+    <input type="button" class="done" value="Preview" onclick="negDone();">
 
     <ul id="neg-list" class="c9 lst-kix_t2bwjy7jyg4b-0 start">
+        <li class="c0 li-bullet-0"><span class="c3">Preview will appear here</span></li>
     </ul>
+
+    <button id='neg-copy-button' class="copy" onclick="copyToClipboard('neg-list', 'neg-copy-button')">Copy to Clipboard</button>
 
     <p class="c2 c11"><span class="c6"></span></p>
     <p class="c2"><span class="c8"></span></p>

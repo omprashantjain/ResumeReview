@@ -3,6 +3,7 @@ ul.lst-kix_t2bwjy7jyg4b-8 {
   list-style-type: none;
 }
 ul.lst-kix_list_1-0 {
+  margin-top: 15px;
   list-style-type: none;
 }
 ul.lst-kix_t2bwjy7jyg4b-4 {
@@ -18,6 +19,7 @@ ul.lst-kix_t2bwjy7jyg4b-7 {
   list-style-type: none;
 }
 ul.lst-kix_t2bwjy7jyg4b-0 {
+  margin-top: 15px;
   list-style-type: none;
 }
 ul.lst-kix_t2bwjy7jyg4b-1 {
@@ -332,7 +334,14 @@ h6 {
   text-align: left;
 }
 .done {
+    margin-top: 20px;
     width: 150px;
     height: 35px;
     font-size: 20px;
+}
+.copy {
+  margin-top: 20px;
+  width: 250px;
+  height: 35px;
+  font-size: 20px;
 }
