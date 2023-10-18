@@ -22,7 +22,8 @@ function negDone() {
     }
 }
 
-function copyToClipboard(element, buttonId) {
+function copyToClipboard(preview, element, buttonId) {
+    preview();
     const doc = document;
     const text = doc.getElementById( element );
     let range;
